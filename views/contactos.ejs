@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link  rel="stylesheet" href="form.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Registro</title>
+</head>
+<body>
+    <div>
+    <h1>Formulario</h1>
+    </div>>
+    <div class="box">
+        <div class="tabla">
+        <table>
+        <thead>
+        <tr>
+        <th scope="col"> Email</th>
+        <th scope="col"> Nombre </th>
+        <th scope="col"> Comentario </th>
+        <th scope="col">Fecha   -   Hora </th> 
+        <th scope="col"> IP </th>      
+        </tr>
+        </thead>
+        <tbody>
+        <% for (const producto of ct) { %>
+        <tr> 
+        <td><%= producto.email%></td>
+        <td><%= producto.nombre%></td>
+        <td><%= producto.comentario%></td>
+        <td><%= producto.fecha%></td>
+        <td><%= producto.ipdire%></td>
+        <td><%= producto.geoloca%></td>
+        </tr>
+        <% } %>
+        </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>

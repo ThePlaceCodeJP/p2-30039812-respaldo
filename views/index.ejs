@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Curriculum</title>
+    <link rel='stylesheet' href='stylesheets/style.css' />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <meta property="og:title" content="Curriculo" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="https://p2-curriculum.herokuapp.com/" />
+  <meta property="og:image" content="images/main-img.jpg" />
+  
+
+  </head>
+  <body>
+    <p><%=__('InicioCurriculo') %></p>
+    <div class="hero">
+      <nav>
+        <h2 class="logo"><%=__('porta') %><span><%=__('folio') %></span></h2>
+        <ul>
+          <li><a href="#"><%=__('inicio') %></a></li>
+          <li><a href="#"><%=__('sobreMi') %></a></li>
+          <li><a href="#"><%=__('formacion') %></a></li>
+          <li><a href="#"><%=__('habilidades') %></a></li>
+          <li><a href="#"><%=__('contactame') %></a></li>
+        </ul>
+      
+      </nav>
+  
+      <div class="content">
+        <h4><%=__('holaNombre') %></h4>
+        <h1><%=__('nombre') %><span><%=__('apellido') %></span></h1>
+        <h3><%=__('Desarrolador1') %></h3>
+        <div class="newslatter">
+        
+        </div>
+      </div>
+    </div>
+  
+    <!----About section start---->
+    <section class="about">
+      <div class="main">
+        <img src="images/main-img.jpg">
+        <div class="about-text">
+          <h2><%=__('sobreMi2') %></h2>
+          <h5><%=__('desarrollador2') %><span><%=__('diseñador') %></span></h5>
+          <p><%=__('front-end') %></p>
+          
+        </div>
+      </div>
+    </section>
+  
+    <!-----service section start----------->
+    <div class="service">
+      <div class="title">
+        <h2><%=__('estudios') %></h2>
+      </div>
+  
+      <div class="box">
+        <div class="card">
+          <i class="fas fa-bars"></i>
+          <h5><%=__('bachillerato') %></h5>
+          <div class="pra">
+            <p><%=__('bachillerato1) %></p>
+  
+            <p style="text-align: center;">
+          
+            </p>
+          </div>
+        </div>
+  
+        <div class="card">
+          <i class="far fa-user"></i>
+          <h5><%=__('uni') %></h5>
+          <div class="pra">
+            <p><%=__('univeridad') %></p>
+  
+            <p style="text-align: center;">
+          
+            </p>
+          </div>
+        </div>
+  
+        <div class="card">
+          <i class="far fa-bell"></i>
+          <h5><%=__('postgrado') %></h5>
+          <div class="pra">
+            <p><%=__('postgrado1') %></p>
+  
+            <p style="text-align: center;">
+          
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!------Habilidades------>
+    <div class="contact-me">
+      <h1><%=__('habilidades1') %></h1>
+      <p id="skills"><%=__('habilidades2') %></p>
+      
+    </div>
+    
+    <div class="background">
+      <div class="form">
+        <h2 id="titulo"><%=__('formulario') %></h2>
+        <form method='post'action='/' id="survey-form" >
+        <div class="label">
+              <input name='nombre' type="text"  placeholder="<%=__('nombreformulario') %>" value="<%= ct.nombre%>" required="true">
+              <input type="email" name='email' placeholder="<%=__('email') %>"" value="<%= ct.email%>" required="true">
+              <input  name='comentario' type="text" placeholder="<%=__('comentario') %>" value="<%= ct.comentario%>" required="true">
+              <input type="hidden" value="<%= modelo.ipdire%>">
+              <input type="hidden"  value="<%= modelo.fecha%>">
+              <input type="hidden"  value="<%= modelo.geoloca%>">
+              
+              <div class="g-recaptcha" data-sitekey="<%=KEY_RECAP%>">
+
+              <input type="hidden" value="<%= ct.ip%>"/>
+              <input type="hidden"  value="<%= ct.fecha%>">
+              <input type="submit" value="Enviar"/>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!------footer--------->
+    <footer>
+      <p><%=__('nombre2') %></p>
+      <p><%=__('mas') %></p>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+      </div>
+
+      <div class="translate">
+        <button onclick="window.location.href='/translate'"><%= __('traducir') %></button>
+      </div>
+    
+
+      <p class="end"><%=__('copyRight') %></p>
+    </footer>
+  </body>
+</html>
+
+

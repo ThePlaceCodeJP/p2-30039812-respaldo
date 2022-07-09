@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="/stylesheets/style.css"> 
+    </head>
+
+    <body>
+        <div class="login-box">
+            <h2>Inicio de Sesion</h2>
+            <form class="user-box" action="/login" method="POST">
+                <div class="user-box">
+                    <p><input type="email" name="username" placeholder="Ingrese su correo electronico"></p>
+                    <p><input type="password" name="password" placeholder="Ingrese su contraseña"></p>
+                    <button type="submit" value="Enviar" name="send">Iniciar Sesion</button>
+                    <h4>--------------------</h4>
+                    <h4><a href="/google">Entrar con Google</a> </h4>
+                    <h4><a href="/">Volver al Curriculum</a> </h4>
+                </div>
+            </form>
+        </div>
+    </body>
+
+    <div class="wrapper">
+
+        <form class="form-signin">   
+
+          <h2 class="form-signin-heading">Please login</h2>
+          <input type="email" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
+          <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
+          <label class="checkbox">
+            <input type="checkbox" value="recuerdame" id="recuerdame" name="recuerdame"> Recuerdame
+          </label>
+          <button class="btn btn-lg btn-primary btn-block" type="submit" value="enviar" name="send">Iniciar sesión</button> 
+          <h4><a href="/google">Entrar con Google</a> </h4>
+          <h4><a href="/">Volver al Curriculum</a> </h4>
+        </form>
+
+      </div>

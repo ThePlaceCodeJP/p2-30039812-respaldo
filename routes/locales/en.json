@@ -1,0 +1,39 @@
+{
+
+"inicioCurriculo": "Begin of Curriculo Vitae",
+"porta": "Port",
+"folio": "folio",
+"inicio": "Home",
+"sobreMi": "About me",
+"formacion": "Education",
+"habilidades": "Skills",
+"contactame": "Contactame",
+"holaNombre": "Hi, my name is",
+"nombre": "José",
+"apellido": "Pérez",
+"desarrollador1": "I am a Web Developer",
+"sobreMi2": "About me",
+"Desarrolador2": "Developer",
+"Diseñador": "& Designer",
+"front-end": "I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more and more interactive with web animations. I can provide clean code and pixel perfect design. I also make the website more and more interactive with web animations. Responsive design makes your website accessible to all users, regardless of their device.",
+"bachillerato": "High School",
+"bachillerato1": "Graduate in High School, at the school 'Juan Jacobo Rousseau', with an average of 17.5",
+"uni": "University",
+"universidad": "Graduate with honors at the Universidad Rómulo Gallegos",
+"postgrado": "Postgraduate",
+"postgrado1": "Postgraduate degree in Development Management, Universidad Central de Venezuela",
+"habilidades1": "Skills",
+"habilidades2": "I have skills in handling HTML, Hyper Text Markup Language, which is not a programming language, but is the basis for languages such as CSS, of which I have knowledge, to style web pages to the client's taste and Javascript to make animations and give functionality to the web page. I have editing skills in Photshoot, AfterEffects and AdobeIllustrartor",
+"formulario": "Form",
+"nombreformulario": "Enter Name",
+"email": "Enter E-mail",
+"comentario": "Comment",
+"nombre2": "José Pérez",
+"mas": "For more HTML, CSS, and code - please click below",
+"copyRight": "CopyRight By José Pérez",
+"traducir" : "translate"
+
+}
+
+
+
