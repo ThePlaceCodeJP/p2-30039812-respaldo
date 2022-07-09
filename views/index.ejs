@@ -1,41 +1,40 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
   <head>
     <title>Curriculum</title>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='stylesheets/style.css' />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-  <meta property="og:title" content="Curriculo" />
-  <meta property="og:type" content="" />
-  <meta property="og:url" content="https://p2-curriculum.herokuapp.com/" />
-  <meta property="og:image" content="images/main-img.jpg" />
+    <link rel="ICON" href="icon.ico">
   
 
   </head>
   <body>
-    <p><%=__('InicioCurriculo') %></p>
+    <p>Inicio del Curriculo Vitae</p>
     <div class="hero">
       <nav>
-        <h2 class="logo"><%=__('porta') %><span><%=__('folio') %></span></h2>
+        <h2 class="logo">Porta<span>folio</span></h2>
         <ul>
-          <li><a href="#"><%=__('inicio') %></a></li>
-          <li><a href="#"><%=__('sobreMi') %></a></li>
-          <li><a href="#"><%=__('formacion') %></a></li>
-          <li><a href="#"><%=__('habilidades') %></a></li>
-          <li><a href="#"><%=__('contactame') %></a></li>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Sobre mi</a></li>
+          <li><a href="#">Formación</a></li>
+          <li><a href="#">Habilidades</a></li>
+          <li><a href="#">Contactame</a></li>
         </ul>
       
       </nav>
   
       <div class="content">
-        <h4><%=__('holaNombre') %></h4>
-        <h1><%=__('nombre') %><span><%=__('apellido') %></span></h1>
-        <h3><%=__('Desarrolador1') %></h3>
+        <h4>Hola, mi nombre es</h4>
+        <h1>José <span>Pérez</span></h1>
+        <h3>Soy un Desarrollador Web.</h3>
         <div class="newslatter">
         
         </div>
@@ -47,9 +46,9 @@
       <div class="main">
         <img src="images/main-img.jpg">
         <div class="about-text">
-          <h2><%=__('sobreMi2') %></h2>
-          <h5><%=__('desarrollador2') %><span><%=__('diseñador') %></span></h5>
-          <p><%=__('front-end') %></p>
+          <h2>Sobre mi</h2>
+          <h5>Desarrolador <span>& Diseñador</span></h5>
+          <p>Soy un desarrollador web front-end. Puedo proporcionar un código limpio y un diseño perfecto de píxeles. También hago que el sitio web sea cada vez más interactivo con animaciones web. Puedo proporcionar un código limpio y un diseño perfecto de píxeles. También hago que el sitio web sea cada vez más interactivo con animaciones web. Un diseño receptivo hace que su sitio web sea accesible para todos los usuarios, independientemente de su dispositivo.</p>
           
         </div>
       </div>
@@ -58,15 +57,15 @@
     <!-----service section start----------->
     <div class="service">
       <div class="title">
-        <h2><%=__('estudios') %></h2>
+        <h2>Estudios</h2>
       </div>
   
       <div class="box">
         <div class="card">
           <i class="fas fa-bars"></i>
-          <h5><%=__('bachillerato') %></h5>
+          <h5>Bachillerato</h5>
           <div class="pra">
-            <p><%=__('bachillerato1) %></p>
+            <p>Graduado en Bachillerato, en el liceo "Juan Jacobo Rousseau", con un promedio de 17.5</p>
   
             <p style="text-align: center;">
           
@@ -76,9 +75,9 @@
   
         <div class="card">
           <i class="far fa-user"></i>
-          <h5><%=__('uni') %></h5>
+          <h5>Universidad</h5>
           <div class="pra">
-            <p><%=__('univeridad') %></p>
+            <p>Graduado con honores en la Universidad Rómulo Gallegos</p>
   
             <p style="text-align: center;">
           
@@ -88,9 +87,9 @@
   
         <div class="card">
           <i class="far fa-bell"></i>
-          <h5><%=__('postgrado') %></h5>
+          <h5>Postgrado</h5>
           <div class="pra">
-            <p><%=__('postgrado1') %></p>
+            <p>Postgrado en Gestión de Desarrollo, en la Universidad Central de Venezuela</p>
   
             <p style="text-align: center;">
           
@@ -102,25 +101,24 @@
   
     <!------Habilidades------>
     <div class="contact-me">
-      <h1><%=__('habilidades1') %></h1>
-      <p id="skills"><%=__('habilidades2') %></p>
+      <h1>Habilidades</h1>
+      <p id="skills">Tengo habilidades en el manejo de HTML, Hyper Text Markup Language, que no es un lenguaje de programación, pero es la base para lenguajes como CSS, del cual tengo conocimiento, para estilizar paginas web al gusto del cliente y Javascript para hacer animaciones y darle funcionalidad a la pagina Web. Cuemto con Habilidades de Edición en Photshoot, AfterEffects y AdobeIllustrartor</p>
       
     </div>
     
     <div class="background">
       <div class="form">
-        <h2 id="titulo"><%=__('formulario') %></h2>
+        <h2 id="titulo"> Formulario</h2>
         <form method='post'action='/' id="survey-form" >
         <div class="label">
-              <input name='nombre' type="text"  placeholder="<%=__('nombreformulario') %>" value="<%= ct.nombre%>" required="true">
-              <input type="email" name='email' placeholder="<%=__('email') %>"" value="<%= ct.email%>" required="true">
-              <input  name='comentario' type="text" placeholder="<%=__('comentario') %>" value="<%= ct.comentario%>" required="true">
-              <input type="hidden" value="<%= modelo.ipdire%>">
-              <input type="hidden"  value="<%= modelo.fecha%>">
-              <input type="hidden"  value="<%= modelo.geoloca%>">
+              <input name='nombre' type="text"  placeholder="Ingrese su Nombre" value="<%= ct.nombre%>" required="true">
+              <input type="email" name='email' placeholder="inserta email" value="<%= ct.email%>" required="true">
+              <input  name='comentario' type="text" placeholder="Comentario" value="<%= ct.comentario%>" required="true">
+              <input type="hidden" value=>
+              <input type="hidden"  value=>
+              <input type="hidden"  value=>
               
-              <div class="g-recaptcha" data-sitekey="<%=KEY_RECAP%>">
-
+              
               <input type="hidden" value="<%= ct.ip%>"/>
               <input type="hidden"  value="<%= ct.fecha%>">
               <input type="submit" value="Enviar"/>
@@ -130,22 +128,19 @@
     </div>
     <!------footer--------->
     <footer>
-      <p><%=__('nombre2') %></p>
-      <p><%=__('mas') %></p>
+      <p>José Pérez</p>
+      <p>Para más HTML, CSS, y código - por favor clikea abajo</p>
       <div class="social">
         <a href="#"><i class="fab fa-facebook-f"></i></a>
         <a href="#"><i class="fab fa-instagram"></i></a>
         <a href="#"><i class="fab fa-dribbble"></i></a>
       </div>
-
+          
       <div class="translate">
         <button onclick="window.location.href='/translate'"><%= __('traducir') %></button>
       </div>
-    
 
-      <p class="end"><%=__('copyRight') %></p>
+      <p class="end">CopyRight By José Pérez</p>
     </footer>
   </body>
 </html>
-
-
